@@ -1,0 +1,397 @@
+/*=============================================================
+    Authour URI: www.binarytheme.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+
+
+
+/* ===========================================================
+   GENERAL STYLESHEET BY BYINARY THEME    
+   ============================================================*/
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #000;
+    line-height: 16px;
+    font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+}
+
+h1 {
+    padding-top: 40px;
+    color: #fff;
+    font-weight: 800;
+}
+
+h5 {
+    padding-bottom: 30px;
+}
+
+h4 {
+    margin-top: 4px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.main-top-margin {
+    margin-top: 120px;
+}
+
+.main-low-margin {
+    margin-top: 55px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+p {
+    line-height: 30px;
+    margin-bottom: 23px;
+}
+
+.navbar-header span {
+    display: block;
+
+}
+
+.img-margin-product {
+    margin-top: 30px;
+}
+
+.bottam-pad {
+    padding-bottom: 40px;
+}
+
+.space-bottom {
+    height: 120px;
+}
+
+.space-top {
+    height: 70px;
+}
+
+.main-icon {
+    font-size: 350px;
+    color: rgba(102, 110, 197, 1);
+}
+
+.head-line {
+    font-size: 70px;
+    padding-bottom: 50px;
+    line-height: 65px;
+    font-weight: 900;
+}
+
+/* ==========================================================================
+   COLOR CODES
+   ========================================================================== */
+
+.color-red {
+    color: #ff0000;
+}
+
+.color-green {
+    color: #07BB00;
+}
+
+.color-light-blue {
+    color: #BB00BB;
+}
+
+.color-blue {
+    color: #0052FF;
+}
+
+.color-brown {
+    color: #EB8F2D;
+
+}
+
+.color-black {
+    color: #000000;
+}
+
+.section {
+    background-color: #4E63D1;
+    color: #fff;
+}
+
+.circle-body {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 14px auto;
+    border: 5px solid #ADA2EB;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+.icon-set {
+    position: relative;
+    padding-top: 33px;
+    width: 70px;
+}
+
+.pic-set {
+    padding-top:30px;
+    width: 111px;
+    height: 111px;
+}
+
+/* ==========================================================================
+   INDEX SECTION
+   ========================================================================== */
+.circle-large {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.circle-large img {
+    width: 120px;
+    margin: 0px 30px 0px 36px;
+}
+
+#main-business {
+    margin-top: 50px;
+
+}
+
+#main-paragraph {
+    float: right;
+    width: 80%;
+    height: 300px;
+}
+
+/* ==========================================================================
+   About US SECTION
+   ========================================================================== */
+.timeline-img { margin-top: 5px; }
+
+.timeline-img img {
+    max-width: 100%;
+    outline: 1.5px solid hsl(0, 0%, 100%);
+    outline-offset: -14px;
+}
+
+.left-part {
+    float: left;
+    padding: 50px;
+}
+
+.right-part {
+    float: right;
+    width: 60%;
+    padding: 50px;
+}
+
+
+/* ==========================================================================
+   Service SECTION
+   ========================================================================== */
+.marquee {
+    margin-top: 20px;
+}
+
+.second-row {
+    display: flex;
+    justify-content: center;
+}
+
+.float-cancel {
+    float: none;
+    margin: 50px auto;
+    font-size: 16px;
+}
+/* ==========================================================================
+   Product SECTION
+   ========================================================================== */
+#title {
+    padding-left: 21px;
+}
+
+.container li {
+    padding: 10px;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+    height: 215px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: 150px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin: 36px 0px;
+    padding: 0px 6px;
+    float: left;
+    width: 13%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+   
+/* ==========================================================================
+   Contact SECTION
+   ========================================================================== */
+.left-intro {
+    margin-top: 80px;
+}
+
+/*==========================================
+   SOCIAL ICON STYLES
+=====================================================*/
+
+
+.color-facebook {
+    color: #3B5998;
+}
+
+.color-twitter {
+    color: #00aced;
+}
+
+.color-google-plus {
+    color: #dd4b39;
+}
+
+.color-linkedin {
+    color: #007bb6;
+}
+
+.color-pinterest {
+    color: #cb2027;
+}
+
+/* ===========================================================
+   COMPONENT.CSS  CHANGES   
+   ============================================================*/
+.slideshow nav span.nav-prev,
+.slideshow nav span.nav-next {
+    left: 33% !important;
+
+}
+
+.slideshow {
+    z-index: 1500 !important;
+}
+
+.slideshow nav span.nav-close {
+    color: #FF0000;
+}
+
+.slideshow nav span {
+    color: #FF0000;
+}
+
+/* ===========================================================
+   SLIDER ADJUSTMENTS (slider.css)  
+   ============================================================*/
+
+.slidesjs-container {
+    height: 550px !important;
+}
+
+#slides {
+    padding: 0px 0px 15px 0px;
+}
+
+/* ===========================================================
+   BOOTSTRAP ELEMENTS CHANGES   
+   ============================================================*/
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+}
+
+.navbar span {
+    font-size: 20px;
+    color: #1133BA
+}
+
+.navbar-inverse {
+    background: #EDEAEA;
+    border-color: #EDEAEA;
+    text-align: center;
+}
+
+.navbar-inverse .navbar-nav>.active>a {
+    background: #18CCE8;
+
+}
+
+.navbar-inverse .navbar-brand {
+    color: #1133BA;
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 200%;
+}
+
+.navbar-inverse :hover .navbar-brand:hover {
+    color: #1133BA;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #1133BA;
+    line-height: 400%;
+}
+
+
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+
+
+#footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
+}
